@@ -1,0 +1,46 @@
+.background {
+    background-image: url('./images/banner/banner3.png');
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    margin-right: 230px;
+    padding-top: 200px;
+    color: white;
+}
+
+.header-title {
+
+    font-weight: 700;
+    font-size: 65px;
+    width: 525px;
+    height: 228px;
+    margin-bottom: 24px;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 16px;
+    width: 494px;
+    height: 78px;
+    margin-top: 0px;
+}
+
+.btn-primary {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(0, 95, 172);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: right;
+}

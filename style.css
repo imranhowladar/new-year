@@ -1,10 +1,14 @@
+body {
+    font-family: "Work Sans";
+}
+
 .background {
     background-image: url('./images/banner/banner3.png');
     width: 100vw;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+
 }
 
 .header-items {
@@ -43,4 +47,48 @@
     font-size: 20px;
     font-weight: 600;
     text-align: right;
+}
+
+.failure-section {
+    width: 1100px;
+    height: 750px;
+    margin: auto;
+    display: flex;
+    gap: 85px;
+    border: 1px solid black;
+    margin-top: 130px;
+}
+
+.failure-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.failure-details>p {
+    color: rgb(68, 67, 67);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.failure-list>li {
+    margin-bottom: 15px;
+    color: rgb(68, 67, 67);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    list-style: none;
+}
+.failure-list>li:before{
+    content: "\2714";
+    color: rgb(22, 216, 135);
+    margin-right: 10px;
+}
+
+.failure-title {
+    color: rgb(21, 20, 20);
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
 }

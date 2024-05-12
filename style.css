@@ -56,7 +56,6 @@ body {
     margin: auto;
     display: flex;
     gap: 85px;
-    border: 1px solid black;
     margin-top: 130px;
 }
 
@@ -132,8 +131,8 @@ body {
 
 /* banner section  */
 .bottom-banner {
-    background-image:linear-gradient(to right, rgb(0, 0, 255,.7), rgb(0, 0, 255,0)), url(./images/watch.png);
-    
+    background-image: linear-gradient(to right, rgb(0, 95, 172, 1), rgb(0, 95, 172, 0)), url(./images/watch.png);
+
     background-size: cover;
     background-repeat: no-repeat;
     width: 1100px;
@@ -155,4 +154,47 @@ body {
     font-size: 40px;
     font-weight: 700;
     text-align: left;
+}
+
+/* footer style    */
+.footer-container {
+    background: rgb(21, 20, 20);
+    margin-top: 130px;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin: auto;
+}
+
+.footer-items-left {
+    width: 485px;
+    color: white;
+    padding: 130px 0px;
+}
+
+.footer-items-right {
+    color: white;
+    padding: 130px 0px;
+}
+
+.footer-email {
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: none;
+    color: white;
+}
+
+.btn-secondary {
+    display: block;
+    margin-top: 20px;
+    border-radius: 8px;
+    background: rgb(0, 95, 172);
+    padding: 15px 25px;
+    color: white;
+
+    
 }
